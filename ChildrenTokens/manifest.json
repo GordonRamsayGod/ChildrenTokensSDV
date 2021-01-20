@@ -1,0 +1,13 @@
+﻿{
+  "Name": "ChildrenTokens",
+  "Author": "BusinessEgg",
+  "Version": "1.0.0",
+  "Description": "Adds tokens which return gender of kid1 and kid2",
+  "UniqueID": "BusinessEgg.CT",
+  "EntryDll": "ChildrenTokens.dll",
+  "MinimumApiVersion": "3.8.0",
+  "UpdateKeys": [ "Nexus:" ],
+  "Dependencies": [
+   { "UniqueID": "Pathoschild.ContentPatcher", "IsRequired": true }
+   ]
+}

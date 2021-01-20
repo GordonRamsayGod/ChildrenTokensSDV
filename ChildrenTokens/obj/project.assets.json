@@ -1,0 +1,87 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5.2": {
+      "Pathoschild.Stardew.ModBuildConfig/3.1.0": {
+        "type": "package",
+        "build": {
+          "build/Pathoschild.Stardew.ModBuildConfig.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pathoschild.Stardew.ModBuildConfig/3.1.0": {
+      "sha512": "2sS34PpNJmpYzh3sE/N8fFiZj5+zwAER7BR9Xr5zOthhJ6LOM4ZoOwHFNCZM0FlzvrK0uteIQ4JGxnjKf3L81w==",
+      "type": "package",
+      "path": "pathoschild.stardew.modbuildconfig/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/SMAPI.ModBuildConfig.Analyzer.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/Pathoschild.Stardew.ModBuildConfig.targets",
+        "build/SMAPI.ModBuildConfig.dll",
+        "build/SMAPI.Toolkit.CoreInterfaces.dll",
+        "build/SMAPI.Toolkit.dll",
+        "build/find-game-folder.targets",
+        "images/icon.png",
+        "pathoschild.stardew.modbuildconfig.3.1.0.nupkg.sha512",
+        "pathoschild.stardew.modbuildconfig.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5.2": [
+      "Pathoschild.Stardew.ModBuildConfig >= 3.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Jojo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Q\\One Day For Maria\\Programming\\VSProjs\\ChildrenTokens\\ChildrenTokens.csproj",
+      "projectName": "ChildrenTokens",
+      "projectPath": "D:\\Q\\One Day For Maria\\Programming\\VSProjs\\ChildrenTokens\\ChildrenTokens.csproj",
+      "packagesPath": "C:\\Users\\Jojo\\.nuget\\packages\\",
+      "outputPath": "D:\\Q\\One Day For Maria\\Programming\\VSProjs\\ChildrenTokens\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Jojo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net452"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net452": {
+          "targetAlias": "net452",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net452": {
+        "targetAlias": "net452",
+        "dependencies": {
+          "Pathoschild.Stardew.ModBuildConfig": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
